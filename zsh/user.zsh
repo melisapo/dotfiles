@@ -33,7 +33,7 @@ if [[ ${HYDE_ZSH_NO_PLUGINS} != "1" ]]; then
     )
 fi
 
-alias clear="clear && zsh"
+alias clear="clear && ~/.config/zsh/random-logo.sh"
 
 fix_fastfetch() {
     unalias fastfetch 2>/dev/null
